@@ -23,8 +23,8 @@ This is a huge part of the project. Be honest, I haven't used AWS RDS before thi
 
 __Step 5. Visualization__\
 Finally, Used Tableau to connect AWS RDS and visualized the data.\ 
-I used below functions to make my dashboard interative and tidy:
-* 1. Parameter (Metric and Date granlarity control)
+I used below functions to make my dashboard interactive and tidy:
+* 1. Parameter (Metric and Date granularity control)
 * 2. Calculated field (Rank)
 * 3. Flag icon (make the map vivid)
 I used to put all worksheets to my dashboard. However, it makes the dashboard hard to read. This time, I only show limited content. And it makes the dashboard readable and informative.
