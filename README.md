@@ -14,6 +14,10 @@ In this phase, I used python to do two things.\
 First, I transformed the dataset from the JSON format into a data frame.\
 Second, since I want to store my data frame to AWS RDS, I build a configuration to allow my python program to communicate to the AWS server.
 
+You can explore my dataset in COVID19_Example_Data.xlsx file.\
+Below is my database gif.
+<img src = "db_gif.gif" width='900' heigh='600'>
+
 __Step 3. Auto Update__\
 Since the API will update the lastest COVID19 data daily, I also want to do the same thing to my database. Therefore, I create a python script to auto-execute my program. If you are interested, you can see more detail in the auto_execute.py file.
 
